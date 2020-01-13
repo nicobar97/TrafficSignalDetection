@@ -1,0 +1,10 @@
+unknown
+prohibitory
+mandatory
+danger
+other
+unknown
+unknown
+unknown
+unknown
+unknown

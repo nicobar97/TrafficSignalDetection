@@ -1,0 +1,29 @@
+MOBILENET_V2_75K EVALUATION
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.512
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.914
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.522
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.320
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.601
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.802
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.485
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.565
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.565
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.365
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.638
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.808
+INFO:tensorflow:Writing metrics to tf summary.
+INFO:tensorflow:DetectionBoxes_Precision/mAP: 0.512015
+INFO:tensorflow:DetectionBoxes_Precision/mAP (large): 0.801634
+INFO:tensorflow:DetectionBoxes_Precision/mAP (medium): 0.601360
+INFO:tensorflow:DetectionBoxes_Precision/mAP (small): 0.320140
+INFO:tensorflow:DetectionBoxes_Precision/mAP@.50IOU: 0.913585
+INFO:tensorflow:DetectionBoxes_Precision/mAP@.75IOU: 0.521542
+INFO:tensorflow:DetectionBoxes_Recall/AR@1: 0.485377
+INFO:tensorflow:DetectionBoxes_Recall/AR@10: 0.565495
+INFO:tensorflow:DetectionBoxes_Recall/AR@100: 0.565495
+INFO:tensorflow:DetectionBoxes_Recall/AR@100 (large): 0.808000
+INFO:tensorflow:DetectionBoxes_Recall/AR@100 (medium): 0.637795
+INFO:tensorflow:DetectionBoxes_Recall/AR@100 (small): 0.364772
+INFO:tensorflow:Losses/Loss/classification_loss: 0.280514
+INFO:tensorflow:Losses/Loss/localization_loss: 0.231110
