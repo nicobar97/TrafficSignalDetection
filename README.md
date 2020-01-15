@@ -1,13 +1,12 @@
 # TrafficSignalDetection
-A Traffic Signal Detection Android/iOS App made by using Object Detection API from TensorFlow
-Sistemi Digitali M at UNIBO
+A Traffic Signal Detection Android/iOS App made by using Object Detection API from TensorFlow<br>Sistemi Digitali M at UNIBO
 # Downloads
 Dataset: https://drive.google.com/file/d/1TNdAzz5U5sh1AtGJNtSHtfqfHDR_FYzZ/view?usp=sharing<br>
 Models trained on COCO: https://drive.google.com/file/d/1SY9x8EA3pxPa2J7ntXLbt7Qb_uTQ_8_H/view?usp=sharing
 # Setup
 0. Set up Anaconda Environment For Python and install TensorFlow 1.15 and other dependencies needed.
-1. Clone this repo
-2. Clone TensorFlow Model Repo (https://github.com/tensorflow/models) 
+1. Clone this repo.
+2. Clone TensorFlow Model Repo (https://github.com/tensorflow/models).
 3. Copy and overwrite TrafficSignalDetection content to research/object_detection folder.
 4. Copy the content of Dataset .zip archive into research/object_detection folder.
 5. Copy the content of Models .zip archive into research/object_detection folder.
@@ -50,6 +49,6 @@ Note: you can't fully quantize the model as custom operation aren't supported ye
 # Apps Usage 
 Android and iOS apps projects are inside mobile_app_projects folder. Open them to Android Studio or xCode to sideload the app on your phone. 
 Note: You need a real phone with a working mobile camera.
-Note2: You need to copy a .tflite in Model folder for xCode or Assets Folder on Android Studio to make the app work
+Note2: You need to copy a .tflite in Model folder for xCode or Assets Folder on Android Studio to make the app work.
 # Contributors
 Nicolò Bartelucci @nicobargit<br>Milo Marchetti @imRaazy
