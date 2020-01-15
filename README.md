@@ -27,5 +27,4 @@ Android and iOS apps projects are inside mobile_app_projects folder. Open them t
 Note: You need a real phone with a working mobile camera.
 Note2: You need to copy a .tflite in Model folder for xCode or Assets Folder on Android Studio to make the app work
 # Contributors
-Nicolò Bartelucci @nicobargit
-Milo Marchetti @imRaazy
+Nicolò Bartelucci @nicobargit<br>Milo Marchetti @imRaazy
