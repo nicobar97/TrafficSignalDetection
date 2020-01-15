@@ -40,12 +40,14 @@ python export_tflite_ssd_graph.py
 --pipeline_config_path training/pipeline.config 
 --trained_checkpoint_prefix training/model.ckpt-XXXXX --output_directory exported_inference_graph_tflite 
 ```
-Converting to .tflite by using convert_to_tflite3.py (with TensorFlow 2.0.0) inside research/object_detection/trained_models_tflite (Change paths before!):
+Converting to .tflite by using convert_to_tflite3.py inside research/object_detection/trained_models_tflite:
 ```
 python trained_models_tflite/convert_to_tflite3.py
 ```
-6. Now you can use .tflite model in Android or iOS app.
-Note: you can't fully quantize the model as custom operation aren't supported yet.
+6. Now you can use .tflite model in Android or iOS app.<br>
+Note: you can't fully quantize the model as custom operation aren't supported yet.<br>
+Note2: use TensorFlow 2.0.0 to run this script.<br>
+Note3: remember to change PATH_TO_BE_CONFIGURED inside pipeline.config file to match your system.
 # Apps Usage 
 Android and iOS apps projects are inside mobile_app_projects folder. Open them to Android Studio or xCode to sideload the app on your phone.<br>
 Note: You need a real phone with a working mobile camera.<br>
