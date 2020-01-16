@@ -1,5 +1,5 @@
 # TrafficSignalDetection
-A Traffic Signal Detection Android/iOS App made by using Object Detection API from TensorFlow<br>Sistemi Digitali M at UNIBO
+A Traffic Signal Detection Android/iOS App made by using Object Detection API from TensorFlow<br>Sistemi Digitali M at UNIBO<br>![alt text](https://github.com/nicobargit/TrafficSignalDetection/blob/master/images/logo.png)
 # Downloads
 Dataset: https://drive.google.com/file/d/1TNdAzz5U5sh1AtGJNtSHtfqfHDR_FYzZ/view?usp=sharing<br>
 Models trained on COCO: https://drive.google.com/file/d/1SY9x8EA3pxPa2J7ntXLbt7Qb_uTQ_8_H/view?usp=sharing
@@ -48,6 +48,10 @@ python trained_models_tflite/convert_to_tflite3.py
 Note: you can't fully quantize the model as custom operation aren't supported yet.<br>
 Note2: use TensorFlow 2.0.0 to run this script.<br>
 Note3: remember to change PATH_TO_BE_CONFIGURED inside pipeline.config file to match your system.
+# Android and iOS Apps
+<img src="https://github.com/nicobargit/TrafficSignalDetection/blob/master/images/ios.PNG" width="300" height="660">
+<img src="https://github.com/nicobargit/TrafficSignalDetection/blob/master/images/android.jpeg" width="350" height="660">
+
 # Apps Usage 
 Android and iOS apps projects are inside mobile_app_projects folder. Open them to Android Studio or xCode to sideload the app on your phone.<br>
 Note: You need a real phone with a working mobile camera.<br>
