@@ -1,4 +1,4 @@
-# TrafficSignalDetection
+# TrafficSignalsDetection
 A Traffic Signal Detection Android/iOS App made by using Object Detection API from TensorFlow<br>Sistemi Digitali M at UNIBO<br>![alt text](https://github.com/nicobargit/TrafficSignalDetection/blob/master/images/logo.png)
 # Downloads
 Dataset: https://drive.google.com/file/d/1TNdAzz5U5sh1AtGJNtSHtfqfHDR_FYzZ/view?usp=sharing<br>
