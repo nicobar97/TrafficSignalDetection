@@ -2,7 +2,8 @@
 A Traffic Signal Detection Android/iOS App made by using Object Detection API from TensorFlow<br>Sistemi Digitali M at UNIBO<br>![alt text](https://github.com/nicobargit/TrafficSignalDetection/blob/master/images/logo.png)
 # Downloads
 Dataset: https://drive.google.com/file/d/1TNdAzz5U5sh1AtGJNtSHtfqfHDR_FYzZ/view?usp=sharing<br>
-Models trained on COCO: https://drive.google.com/file/d/1SY9x8EA3pxPa2J7ntXLbt7Qb_uTQ_8_H/view?usp=sharing
+Models trained on COCO: https://drive.google.com/file/d/1SY9x8EA3pxPa2J7ntXLbt7Qb_uTQ_8_H/view?usp=sharing <br>
+Fine Tuned models on the Dataset: https://drive.google.com/open?id=1pIYxxg0VLJd-JzMOrVqv5X6sJGPW5UOy
 # Setup
 0. Set up Anaconda Environment For Python and install TensorFlow 1.15 and other dependencies needed.<br>
 1. Clone this repo.<br>
